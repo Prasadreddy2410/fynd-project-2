@@ -381,10 +381,10 @@ def setPrice():
 def runQuery(query):
 	try:
 		db = mysql.connector.connect(
-			host='127.0.0.1',
-			database='db_theatre',
-			user='root',
-			password='Abhi@0014')
+			host='bwb1equ7bmuh5p2eer01-mysql.services.clever-cloud.com',
+			database='bwb1equ7bmuh5p2eer01',
+			user='uptphfgqddtd83pm',
+			password='2FeBhF1bKicELjl6HnqM')
 
 		if db.is_connected():
 			print("Connected to MySQL, running query: ", query)
